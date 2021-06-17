@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ -->
+
+<resources>
+    <string name="app">Ad Buster</string>
+
+    <string name="connecting">Ad Buster is connecting...</string>
+    <string name="connected">Ad Buster is connected!</string>
+    <string name="disconnected">Ad Buster is disconnected!</string>
+
+    <string name="notification_title">Busting Ads!</string>
+    <string name="notification_starting">Starting Ad Buster</string>
+    <string name="notification_running">I ain\'t \'fraid of no ads!</string>
+    <string name="notification_stopping">Stopping</string>
+    <string name="notification_waiting_for_net">Waiting for network</string>
+    <string name="notification_reconnecting">Reconnecting...</string>
+    <string name="notification_reconnecting_error">Reconnecting...</string>
+    <string name="notification_stopped">Not running</string>
+
+    <string name="toast_reconnecting_error">Exception happened in service, reconnecting in 2s</string>
+
+    <string name="status_label">Status:</string>
+    <string name="status_description">Vpn Status</string>
+    
+    <string name="preferences_file_key">general_preferences</string>
+    <string name="vpn_enabled_key">vpn_enabled</string>
+    <string name="vpn_toggle_description">Toggle VPN</string>
+
+    <string name="update_message">An update is available!</string>
+    <string name="update_dialog_positive_button">Update</string>
+    <string name="update_dialog_negative_button">Cancel</string>
+</resources>

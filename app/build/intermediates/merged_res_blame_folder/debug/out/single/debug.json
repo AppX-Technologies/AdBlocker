@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-xhdpi-v11_ic_vpn_notification.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-xhdpi-v11/ic_vpn_notification.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_vpn_notification.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-mdpi-v11/ic_vpn_notification.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle_bg.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle_bg.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_form.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/form.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_vpn_notification.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-xxhdpi-v11/ic_vpn_notification.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_off.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_off.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_middle.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_middle.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_on.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_on.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_vpn_notification.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-hdpi-v11/ic_vpn_notification.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle.xml"
+    }
+]

@@ -1,0 +1,2 @@
+app/adbuster/BuildConfig.java
+ app.adbuster.BuildConfig
