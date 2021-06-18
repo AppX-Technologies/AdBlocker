@@ -4,43 +4,99 @@
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-xhdpi-v11/ic_vpn_notification.png"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_vpn_notification.png.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-mdpi-v11/ic_vpn_notification.png"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle_bg.xml.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle_bg.xml"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_form.xml.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/form.xml"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_vpn_notification.png.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-xxhdpi-v11/ic_vpn_notification.png"
-    },
-    {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_off.xml.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_off.xml"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_bg_lite_border.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/bg_lite_border.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_middle.xml.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_middle.xml"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_on.xml.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_on.xml"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_off.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_off.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_vpn_notification.png.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-hdpi-v11/ic_vpn_notification.png"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_settings.xml"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_vpn_notification.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-mdpi-v11/ic_vpn_notification.png"
     },
     {
-        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle.xml.flat",
-        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle.xml"
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_vpn_notification.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-xxhdpi-v11/ic_vpn_notification.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle_bg.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle_bg.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_on.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_on.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     }
 ]

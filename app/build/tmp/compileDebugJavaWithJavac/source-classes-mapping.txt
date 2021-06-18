@@ -1,2 +1,6 @@
 app/adbuster/BuildConfig.java
  app.adbuster.BuildConfig
+app/adbuster/AdBlockerApplication.java
+ app.adbuster.AdBlockerApplication
+app/adbuster/SharedPreManager.java
+ app.adbuster.SharedPreManager

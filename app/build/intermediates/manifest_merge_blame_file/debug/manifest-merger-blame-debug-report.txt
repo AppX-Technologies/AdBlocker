@@ -1,104 +1,97 @@
 1<?xml version="1.0" encoding="utf-8"?>
-2<!--
-3 Copyright (C) 2011 The Android Open Source Project
-4
-5     Licensed under the Apache License, Version 2.0 (the "License");
-6     you may not use this file except in compliance with the License.
-7     You may obtain a copy of the License at
-8
-9          http://www.apache.org/licenses/LICENSE-2.0
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.adbuster"
+4    android:versionCode="1"
+5    android:versionName="1.0.0-DEBUG" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 10
-11     Unless required by applicable law or agreed to in writing, software
-12     distributed under the License is distributed on an "AS IS" BASIS,
-13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-14     See the License for the specific language governing permissions and
-15     limitations under the License.
-16-->
-17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-18    package="app.adbuster"
-19    android:versionCode="1"
-20    android:versionName="1.0.0-DEBUG" >
-21
-22    <uses-sdk
-23        android:minSdkVersion="21"
-23-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-24        android:targetSdkVersion="30" />
-24-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-25
-26    <uses-permission android:name="android.permission.INTERNET" />
-26-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:19:5-67
-26-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:19:22-64
-27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-27-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:5-79
-27-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:22-76
-28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-28-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:5-81
-28-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:22-78
-29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-29-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:5-77
-29-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:22-74
-30
-31    <application
-31-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:5-58:19
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:22:18-86
-33        android:debuggable="true"
-34        android:label="@string/app"
-34-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:9-36
-35        android:testOnly="true" >
-36        <meta-data
-37            android:name="net.hockeyapp.android.appIdentifier"
-37-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:28:13-63
-38            android:value="f5fc3d2b26a24cc699d65708e15870ee" />
-38-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:29:13-48
-39
-40        <activity
-40-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:31:9-39:20
-41            android:name="app.adbuster.MainActivity"
-41-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:32:13-41
-42            android:configChanges="orientation|keyboardHidden" >
-42-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:33:13-63
-43            <intent-filter>
-43-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:34:13-38:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:17-69
-44-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:25-66
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:8:5-77
+14-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:8:22-74
+15
+16    <application
+16-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:10:5-48:19
+17        android:name="app.adbuster.AdBlockerApplication"
+17-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:12:9-45
+18        android:allowBackup="false"
+18-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:13:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:14:9-43
+22        android:label="@string/app"
+22-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:11:9-36
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:17:9-40
+27        <activity
+27-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:9-29:20
+28            android:name="app.adbuster.MainActivity"
+28-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:13-41
+29            android:configChanges="orientation|keyboardHidden"
+29-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:23:13-63
+30            android:screenOrientation="portrait" >
+30-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:13-49
+31            <intent-filter>
+31-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:17-69
+32-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:17-77
+34-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:31:9-37:19
+39            android:name="app.adbuster.AdVpnService"
+39-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:32:13-41
+40            android:permission="android.permission.BIND_VPN_SERVICE" >
+40-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:33:13-69
+41            <intent-filter>
+41-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:34:13-36:29
+42                <action android:name="android.net.VpnService" />
+42-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:17-65
+42-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:25-62
+43            </intent-filter>
+44        </service>
 45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:37:17-77
-46-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:37:27-74
-47            </intent-filter>
-48        </activity>
-49
-50        <service
-50-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:41:9-47:19
-51            android:name="app.adbuster.AdVpnService"
-51-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:42:13-41
-52            android:permission="android.permission.BIND_VPN_SERVICE" >
-52-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:43:13-69
-53            <intent-filter>
-53-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:13-46:29
-54                <action android:name="android.net.VpnService" />
-54-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:45:17-65
-54-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:45:25-62
-55            </intent-filter>
-56        </service>
-57
-58        <receiver
-58-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:49:9-56:20
-59            android:name="app.adbuster.BootComplete"
-59-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:50:13-41
-60            android:enabled="true"
-60-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:51:13-35
-61            android:exported="true" >
-61-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:52:13-36
-62            <intent-filter>
-62-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:53:13-55:29
-63                <action android:name="android.intent.action.BOOT_COMPLETED" />
-63-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:54:17-79
-63-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:54:25-76
-64            </intent-filter>
-65        </receiver>
-66    </application>
-67
-68</manifest>
+46        <receiver
+46-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:39:9-46:20
+47            android:name="app.adbuster.BootComplete"
+47-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:40:13-41
+48            android:enabled="true"
+48-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:41:13-35
+49            android:exported="true" >
+49-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:42:13-36
+50            <intent-filter>
+50-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:43:13-45:29
+51                <action android:name="android.intent.action.BOOT_COMPLETED" />
+51-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:17-79
+51-->/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:25-76
+52            </intent-filter>
+53        </receiver>
+54    </application>
+55
+56</manifest>

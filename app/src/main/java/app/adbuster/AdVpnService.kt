@@ -30,7 +30,7 @@ const val VPN_STATUS_RECONNECTING = 4
 const val VPN_STATUS_RECONNECTING_NETWORK_ERROR = 5
 const val VPN_STATUS_STOPPED = 6
 
-fun vpnStatusToTextId(status: Int): Int = when(status) {
+fun vpnStatusToTextId(status: Int): Int = when (status) {
     VPN_STATUS_STARTING -> R.string.notification_starting
     VPN_STATUS_RUNNING -> R.string.notification_running
     VPN_STATUS_STOPPING -> R.string.notification_stopping
@@ -41,6 +41,14 @@ fun vpnStatusToTextId(status: Int): Int = when(status) {
     else -> throw IllegalArgumentException("Invalid vpnStatus value ($status)")
 }
 
+fun vpnStatusToColor(status: Int): Int = when (status) {
+    VPN_STATUS_STARTING -> R.color.colorSuccessLight
+    VPN_STATUS_RUNNING -> R.color.colorSuccessDark
+    VPN_STATUS_STOPPING -> R.color.colorError
+    VPN_STATUS_STOPPED -> R.color.colorErrorDark
+    else -> R.color.colorMaleBlue
+}
+
 const val VPN_MSG_STATUS_UPDATE = 0
 const val VPN_MSG_NETWORK_CHANGED = 1
 
@@ -48,12 +56,15 @@ const val VPN_UPDATE_STATUS_INTENT = "app.adbuster.VPN_UPDATE_STATUS"
 const val VPN_UPDATE_STATUS_EXTRA = "VPN_STATUS"
 
 const val MIN_RETRY_TIME = 5
-const val MAX_RETRY_TIME = 2*60
+const val MAX_RETRY_TIME = 2 * 60
 
 fun checkStartVpnOnBoot(context: Context) {
     Log.i("BOOT", "Checking whether to start ad buster on boot")
 
-    val pref = context.getSharedPreferences(context.getString(R.string.preferences_file_key), Context.MODE_PRIVATE)
+    val pref = context.getSharedPreferences(
+        context.getString(R.string.preferences_file_key),
+        Context.MODE_PRIVATE
+    )
     if (!pref.getBoolean(context.getString(R.string.vpn_enabled_key), false)) {
         return
     }
@@ -67,9 +78,13 @@ fun checkStartVpnOnBoot(context: Context) {
 
     val intent = Intent(context, AdVpnService::class.java)
     intent.putExtra("COMMAND", Command.START.ordinal)
-    intent.putExtra("NOTIFICATION_INTENT",
-            PendingIntent.getActivity(context, 0,
-                    Intent(context, MainActivity::class.java), 0))
+    intent.putExtra(
+        "NOTIFICATION_INTENT",
+        PendingIntent.getActivity(
+            context, 0,
+            Intent(context, MainActivity::class.java), 0
+        )
+    )
     context.startService(intent)
 
 }
@@ -77,6 +92,7 @@ fun checkStartVpnOnBoot(context: Context) {
 class AdVpnService : VpnService() {
     companion object {
         private val TAG = "VpnService"
+
         // TODO: Temporary Hack til refactor is done
         var vpnStatus: Int = VPN_STATUS_STOPPED
     }
@@ -102,21 +118,22 @@ class AdVpnService : VpnService() {
     override fun onCreate() {
         super.onCreate()
         val channelId =
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    createNotificationChannel("ad_blocker", "Ad blocker")
-                } else {
-                    ""
-                }
-        notificationBuilder = NotificationCompat.Builder(this,channelId)
-                .setSmallIcon(R.drawable.ic_vpn_notification)
-                .setPriority(Notification.PRIORITY_MIN)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                createNotificationChannel("ad_blocker", "Ad blocker")
+            } else {
+                ""
+            }
+        notificationBuilder = NotificationCompat.Builder(this, channelId)
+            .setSmallIcon(R.drawable.ic_vpn_notification)
+            .setPriority(Notification.PRIORITY_MIN)
     }
 
 
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
         Log.i(TAG, "onStartCommand")
         when (commandValue[intent.getIntExtra("COMMAND", Command.START.ordinal)]) {
-            Command.START -> intent.getParcelableExtra<PendingIntent>("NOTIFICATION_INTENT")?.let { startVpn(it) }
+            Command.START -> intent.getParcelableExtra<PendingIntent>("NOTIFICATION_INTENT")
+                ?.let { startVpn(it) }
             Command.STOP -> stopVpn()
         }
 
@@ -138,7 +155,8 @@ class AdVpnService : VpnService() {
 
     private fun startVpn(notificationIntent: PendingIntent) {
         // TODO: Should this be in the activity instead?
-        val edit_pref = getSharedPreferences(getString(R.string.preferences_file_key), MODE_PRIVATE).edit()
+        val edit_pref =
+            getSharedPreferences(getString(R.string.preferences_file_key), MODE_PRIVATE).edit()
         edit_pref.putBoolean(getString(R.string.vpn_enabled_key), true)
         edit_pref.apply()
 
@@ -146,7 +164,10 @@ class AdVpnService : VpnService() {
         notificationBuilder.setContentIntent(notificationIntent)
         updateVpnStatus(VPN_STATUS_STARTING)
 
-        registerReceiver(connectivityChangedReceiver, IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION))
+        registerReceiver(
+            connectivityChangedReceiver,
+            IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION)
+        )
 
         restartVpnThread()
     }
@@ -172,7 +193,8 @@ class AdVpnService : VpnService() {
 
     private fun stopVpn() {
         // TODO: Should this be in the activity instead?
-        val edit_pref = getSharedPreferences(getString(R.string.preferences_file_key), MODE_PRIVATE).edit()
+        val edit_pref =
+            getSharedPreferences(getString(R.string.preferences_file_key), MODE_PRIVATE).edit()
         edit_pref.putBoolean(getString(R.string.vpn_enabled_key), false)
         edit_pref.apply()
 
@@ -206,7 +228,11 @@ class AdVpnService : VpnService() {
     }
 
     fun connectivityChanged(intent: Intent) {
-        if (intent.getIntExtra(ConnectivityManager.EXTRA_NETWORK_TYPE, 0) == ConnectivityManager.TYPE_VPN) {
+        if (intent.getIntExtra(
+                ConnectivityManager.EXTRA_NETWORK_TYPE,
+                0
+            ) == ConnectivityManager.TYPE_VPN
+        ) {
             Log.i(TAG, "Ignoring connectivity changed for our own network")
             return
         }
@@ -224,12 +250,15 @@ class AdVpnService : VpnService() {
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun createNotificationChannel(channelId: String, channelName: String): String{
-        val chan = NotificationChannel(channelId,
-                channelName, NotificationManager.IMPORTANCE_NONE)
+    private fun createNotificationChannel(channelId: String, channelName: String): String {
+        val chan = NotificationChannel(
+            channelId,
+            channelName, NotificationManager.IMPORTANCE_NONE
+        )
         chan.lightColor = Color.BLUE
         chan.lockscreenVisibility = Notification.VISIBILITY_PRIVATE
-        val service = applicationContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        val service =
+            applicationContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
         service.createNotificationChannel(chan)
         return channelId
     }

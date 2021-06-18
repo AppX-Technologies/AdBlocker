@@ -1,180 +1,242 @@
 -- Merging decision tree log ---
-meta-data#net.hockeyapp.android.appIdentifier
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:9-29:51
-	android:value
-		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:29:13-48
-	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:28:13-63
 manifest
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/2ab9f694e5d3af64949140461960b743/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c82a9eca41089f3a6896ea573cfccd87/media-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/01a78cf554e6c4441512374e19a94070/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/cafdcb56cd064bbf622135f61bb6ed84/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/7cbfbaaa39ecb82620bffe2588206993/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/fb1a0924cbad762d0f581f6d187fd952/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c6e778544c3daa9334b7e39d7723ab0b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/390fba7780f75f3935d6793c0cae2473/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/868c4b7ee3ddc9bf7e171c26bc1832bd/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/092a3e2c794826840c7bdfa866a4ff56/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/a47101ded039236e94007b8beb4d0848/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/02762fa41652d52d9fee565fa6e98d0d/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c523d7266f112830516f47157eeaf9c5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ab0971dc0418d312ad5e60792163f1ea/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/86c84a825357d05c2f724246490a8df6/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ca96f6182f57510854af9a656e5790c4/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/b33061385d67b982bb885113b832fc1e/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/01df92b7300672a5ff8664dc3764ee51/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/5586921ae4cea2e46fb71f72d59033a3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/5a0ff6eba4a0ab8a5ff2db13b6b96742/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/d905bd4d37713ddb7e2a558cb611c465/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/0f9f9612216e1658ded37de1f7493c8e/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/db70915db5482881b82db5efafd295dc/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/e8a9ba95fcf0cc98ab87a4d17d4050b7/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/636abd2505ccfeb0dfa537ce973d5a81/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/24f94387b8181518458d9b2cc3a248ef/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/0ded059a1aac1be8d7b488586301dd41/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/f3369d403ee2d174ac7b3c317c272fbf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/rahulsoni/.gradle/caches/transforms-3/600fa87182728cc611f07b3dabdc9b6d/transformed/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/rahulsoni/.gradle/caches/transforms-3/a36b970a0ebc1529bbccad09b6fc15b1/transformed/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/504e0e77beb394e825c2893b1b2af327/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/cb22d08da7a59900a0e477fa9db0876a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/5c86c9ebe773322ec2d29a5b0fef9b8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b108b2782d8d30b8ddc4342b3be2117c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/98b69f80cf72ef28cd87d0774973da7a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/626742286f7328652e7c724e0b5f1a3c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/15835b86dfcb90038c66b5f34cb96dfd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/rahulsoni/.gradle/caches/transforms-3/a2f4d3ae4d4ad598a41423840d18cacf/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/4e8440426c0e0b203444630dba3aa3de/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/104f0f9569573054a62def00d1159b35/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/bd24d9426ffb0025ca2560779d73f85e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/5e5c635b11af38a1e98c97e6a7b40b6f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/509f25864358b75dcd82251b2cde8856/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/d7f0fb7ce479ce3e1d9924ba48ed49d4/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/03538003776a639e9e9367ea11def499/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/3cc58211a06119fd376c7251f8d0a3cb/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/e967ad4605a6b37d3be8ced0eba73a8a/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b0dc0467b0e573bafd658d543f5977f5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/9ee102981c0339670b1e7c196717774a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/403f510efc3cbc9d1725ac11db67ae19/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/fa141b578f8aec305afb57bfb921de9d/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/40c94427664b7cb42f4c9b73e8b7ee72/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b02993af6d3c14f71537e90fe7b008f1/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulsoni/.gradle/caches/transforms-3/fdb118e41e35a3b4514f477a814ea13e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/708897fe01d5c67bb3473f1e822bb503/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/c23e5bb90174bac0969389d020d14aa9/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/61fa055309f8ff241949ca92caa528af/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/b531c13ffe6578c2771ca34417077bd7/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/bfe8ea64fed5c96bd34e7ef8fc0582f5/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/9c9515ccd5b29c09a8152d42704e5161/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/a870c0c7e34d8c04b04f9da6ce4a65c8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/80f8347a727d01a41cdb802e684c7afb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/224cae329b893a0a4e8ce569268d61da/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:17:5-27
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:3:5-27
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:1-60:12
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:11-69
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:19:5-67
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:19:22-64
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:5-79
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:22-76
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:5-81
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:22-78
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:5-77
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:8:5-77
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:22-74
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:8:22-74
 application
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:5-58:19
-MERGED from [androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ab0971dc0418d312ad5e60792163f1ea/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ab0971dc0418d312ad5e60792163f1ea/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:10:5-48:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulsoni/.gradle/caches/transforms-3/fdb118e41e35a3b4514f477a814ea13e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulsoni/.gradle/caches/transforms-3/fdb118e41e35a3b4514f477a814ea13e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:9-36
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:11:9-36
+	android:roundIcon
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:13:9-36
+	android:theme
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:12:9-45
 activity#app.adbuster.MainActivity
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:31:9-39:20
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:9-29:20
+	android:screenOrientation
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:13-49
 	android:configChanges
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:33:13-63
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:23:13-63
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:27-74
+service#app.adbuster.AdVpnService
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:31:9-37:19
+	android:permission
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:33:13-69
 	android:name
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:32:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:34:13-38:29
-action#android.intent.action.MAIN
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:17-69
-	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:37:17-77
-	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:37:27-74
-service#app.adbuster.AdVpnService
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:41:9-47:19
-	android:permission
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:43:13-69
-	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.net.VpnService
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:13-46:29
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:34:13-36:29
 action#android.net.VpnService
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:45:17-65
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:17-65
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:45:25-62
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:25-62
 receiver#app.adbuster.BootComplete
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:49:9-56:20
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:39:9-46:20
 	android:enabled
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:51:13-35
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:41:13-35
 	android:exported
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:52:13-36
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:50:13-41
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:40:13-41
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:53:13-55:29
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:43:13-45:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:54:17-79
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:17-79
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:54:25-76
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:25-76
 uses-sdk
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/2ab9f694e5d3af64949140461960b743/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/2ab9f694e5d3af64949140461960b743/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c82a9eca41089f3a6896ea573cfccd87/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c82a9eca41089f3a6896ea573cfccd87/media-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/01a78cf554e6c4441512374e19a94070/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/01a78cf554e6c4441512374e19a94070/fragment-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/cafdcb56cd064bbf622135f61bb6ed84/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/cafdcb56cd064bbf622135f61bb6ed84/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/7cbfbaaa39ecb82620bffe2588206993/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/7cbfbaaa39ecb82620bffe2588206993/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/fb1a0924cbad762d0f581f6d187fd952/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/fb1a0924cbad762d0f581f6d187fd952/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c6e778544c3daa9334b7e39d7723ab0b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c6e778544c3daa9334b7e39d7723ab0b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/390fba7780f75f3935d6793c0cae2473/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/390fba7780f75f3935d6793c0cae2473/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/868c4b7ee3ddc9bf7e171c26bc1832bd/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/868c4b7ee3ddc9bf7e171c26bc1832bd/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/092a3e2c794826840c7bdfa866a4ff56/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/092a3e2c794826840c7bdfa866a4ff56/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/a47101ded039236e94007b8beb4d0848/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/a47101ded039236e94007b8beb4d0848/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/02762fa41652d52d9fee565fa6e98d0d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/02762fa41652d52d9fee565fa6e98d0d/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c523d7266f112830516f47157eeaf9c5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/c523d7266f112830516f47157eeaf9c5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/9902be9b1aac21e364b85501bd7541d0/core-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ab0971dc0418d312ad5e60792163f1ea/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ab0971dc0418d312ad5e60792163f1ea/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/86c84a825357d05c2f724246490a8df6/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/86c84a825357d05c2f724246490a8df6/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ca96f6182f57510854af9a656e5790c4/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/ca96f6182f57510854af9a656e5790c4/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/b33061385d67b982bb885113b832fc1e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/b33061385d67b982bb885113b832fc1e/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/01df92b7300672a5ff8664dc3764ee51/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/01df92b7300672a5ff8664dc3764ee51/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/5586921ae4cea2e46fb71f72d59033a3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/5586921ae4cea2e46fb71f72d59033a3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/5a0ff6eba4a0ab8a5ff2db13b6b96742/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/5a0ff6eba4a0ab8a5ff2db13b6b96742/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/d905bd4d37713ddb7e2a558cb611c465/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/d905bd4d37713ddb7e2a558cb611c465/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/0f9f9612216e1658ded37de1f7493c8e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/0f9f9612216e1658ded37de1f7493c8e/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/db70915db5482881b82db5efafd295dc/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/db70915db5482881b82db5efafd295dc/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/e8a9ba95fcf0cc98ab87a4d17d4050b7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-2/files-2.1/e8a9ba95fcf0cc98ab87a4d17d4050b7/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/636abd2505ccfeb0dfa537ce973d5a81/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/636abd2505ccfeb0dfa537ce973d5a81/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/24f94387b8181518458d9b2cc3a248ef/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/24f94387b8181518458d9b2cc3a248ef/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/0ded059a1aac1be8d7b488586301dd41/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/0ded059a1aac1be8d7b488586301dd41/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/f3369d403ee2d174ac7b3c317c272fbf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/f3369d403ee2d174ac7b3c317c272fbf/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/rahulsoni/.gradle/caches/transforms-3/600fa87182728cc611f07b3dabdc9b6d/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/rahulsoni/.gradle/caches/transforms-3/600fa87182728cc611f07b3dabdc9b6d/transformed/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/rahulsoni/.gradle/caches/transforms-3/a36b970a0ebc1529bbccad09b6fc15b1/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/rahulsoni/.gradle/caches/transforms-3/a36b970a0ebc1529bbccad09b6fc15b1/transformed/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/504e0e77beb394e825c2893b1b2af327/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/504e0e77beb394e825c2893b1b2af327/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/cb22d08da7a59900a0e477fa9db0876a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/cb22d08da7a59900a0e477fa9db0876a/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/5c86c9ebe773322ec2d29a5b0fef9b8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/5c86c9ebe773322ec2d29a5b0fef9b8a/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b108b2782d8d30b8ddc4342b3be2117c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b108b2782d8d30b8ddc4342b3be2117c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/98b69f80cf72ef28cd87d0774973da7a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/98b69f80cf72ef28cd87d0774973da7a/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/626742286f7328652e7c724e0b5f1a3c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/626742286f7328652e7c724e0b5f1a3c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/15835b86dfcb90038c66b5f34cb96dfd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/15835b86dfcb90038c66b5f34cb96dfd/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/rahulsoni/.gradle/caches/transforms-3/a2f4d3ae4d4ad598a41423840d18cacf/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/rahulsoni/.gradle/caches/transforms-3/a2f4d3ae4d4ad598a41423840d18cacf/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/4e8440426c0e0b203444630dba3aa3de/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/4e8440426c0e0b203444630dba3aa3de/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/104f0f9569573054a62def00d1159b35/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/104f0f9569573054a62def00d1159b35/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/bd24d9426ffb0025ca2560779d73f85e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/bd24d9426ffb0025ca2560779d73f85e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/5e5c635b11af38a1e98c97e6a7b40b6f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/5e5c635b11af38a1e98c97e6a7b40b6f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/509f25864358b75dcd82251b2cde8856/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/509f25864358b75dcd82251b2cde8856/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/d7f0fb7ce479ce3e1d9924ba48ed49d4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/d7f0fb7ce479ce3e1d9924ba48ed49d4/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/03538003776a639e9e9367ea11def499/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/03538003776a639e9e9367ea11def499/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/3cc58211a06119fd376c7251f8d0a3cb/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/3cc58211a06119fd376c7251f8d0a3cb/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/e967ad4605a6b37d3be8ced0eba73a8a/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/e967ad4605a6b37d3be8ced0eba73a8a/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/rahulsoni/.gradle/caches/transforms-3/ce0fc6d1a2c05c1a1bc36154df5ef380/transformed/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b0dc0467b0e573bafd658d543f5977f5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b0dc0467b0e573bafd658d543f5977f5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/9ee102981c0339670b1e7c196717774a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/9ee102981c0339670b1e7c196717774a/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/403f510efc3cbc9d1725ac11db67ae19/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/403f510efc3cbc9d1725ac11db67ae19/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/fa141b578f8aec305afb57bfb921de9d/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/fa141b578f8aec305afb57bfb921de9d/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/40c94427664b7cb42f4c9b73e8b7ee72/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/40c94427664b7cb42f4c9b73e8b7ee72/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b02993af6d3c14f71537e90fe7b008f1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/b02993af6d3c14f71537e90fe7b008f1/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulsoni/.gradle/caches/transforms-3/fdb118e41e35a3b4514f477a814ea13e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahulsoni/.gradle/caches/transforms-3/fdb118e41e35a3b4514f477a814ea13e/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/708897fe01d5c67bb3473f1e822bb503/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/708897fe01d5c67bb3473f1e822bb503/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/c23e5bb90174bac0969389d020d14aa9/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/c23e5bb90174bac0969389d020d14aa9/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/61fa055309f8ff241949ca92caa528af/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/rahulsoni/.gradle/caches/transforms-3/61fa055309f8ff241949ca92caa528af/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/b531c13ffe6578c2771ca34417077bd7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/rahulsoni/.gradle/caches/transforms-3/b531c13ffe6578c2771ca34417077bd7/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/bfe8ea64fed5c96bd34e7ef8fc0582f5/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/bfe8ea64fed5c96bd34e7ef8fc0582f5/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/9c9515ccd5b29c09a8152d42704e5161/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/9c9515ccd5b29c09a8152d42704e5161/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/a870c0c7e34d8c04b04f9da6ce4a65c8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/a870c0c7e34d8c04b04f9da6ce4a65c8/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/80f8347a727d01a41cdb802e684c7afb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/80f8347a727d01a41cdb802e684c7afb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/224cae329b893a0a4e8ce569268d61da/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/224cae329b893a0a4e8ce569268d61da/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

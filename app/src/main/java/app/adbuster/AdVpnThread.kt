@@ -9,6 +9,7 @@ import android.os.ParcelFileDescriptor
 import android.system.ErrnoException
 import android.system.OsConstants
 import android.util.Log
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import org.pcap4j.packet.IpV4Packet
 import org.pcap4j.packet.UdpPacket
 import org.pcap4j.packet.UnknownPacket
@@ -28,7 +29,7 @@ import java.util.concurrent.SynchronousQueue
 import java.util.concurrent.ThreadPoolExecutor
 import java.util.concurrent.TimeUnit
 
-fun getDnsServers(context: Context) : InetAddress {
+fun getDnsServers(context: Context): InetAddress {
     val cm = context.getSystemService(VpnService.CONNECTIVITY_SERVICE) as ConnectivityManager
     // Seriously, Android? Seriously?
     val activeInfo = cm.activeNetworkInfo ?: throw VpnNetworkException("No DNS Server")
@@ -42,7 +43,7 @@ fun getDnsServers(context: Context) : InetAddress {
     return dnsServer
 }
 
-class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
+class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?) : Runnable {
     companion object {
         const val TAG = "AdVpnThread"
     }
@@ -54,6 +55,7 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
     private var thread: Thread? = null
     private var interruptible: InterruptibleFileInputStream? = null
     private var blockedHosts: Set<String>? = null
+    private var sharedPreManager: SharedPreManager? = null
 
     fun startThread() {
         Log.i(TAG, "Starting Vpn Thread")
@@ -74,7 +76,8 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
 
     }
 
-    @Synchronized override fun run() {
+    @Synchronized
+    override fun run() {
         try {
             Log.i(TAG, "Starting")
 
@@ -141,7 +144,8 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
         val packet = ByteArray(32767)
 
         // Like this `Executors.newCachedThreadPool()`, except with an upper limit
-        val executor = ThreadPoolExecutor(0, 32, 60L, TimeUnit.SECONDS, SynchronousQueue<Runnable>())
+        val executor =
+            ThreadPoolExecutor(0, 32, 60L, TimeUnit.SECONDS, SynchronousQueue<Runnable>())
 
         try {
             // Now we are connected. Set the flag and show the message.
@@ -171,8 +175,10 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
                 val dnsSocket = DatagramSocket()
                 vpnService.protect(dnsSocket)
 
-                Log.i(TAG, "Starting new thread to handle dns request" +
-                        " (active = ${executor.activeCount} backlog = ${executor.queue.size})")
+                Log.i(
+                    TAG, "Starting new thread to handle dns request" +
+                            " (active = ${executor.activeCount} backlog = ${executor.queue.size})"
+                )
                 // Start a new thread to handle the DNS request
                 try {
                     executor.execute {
@@ -191,7 +197,11 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
         }
     }
 
-    private fun handleDnsRequest(packet: ByteArray, dnsSocket: DatagramSocket, outFd: FileOutputStream) {
+    private fun handleDnsRequest(
+        packet: ByteArray,
+        dnsSocket: DatagramSocket,
+        outFd: FileOutputStream
+    ) {
         try {
             val parsedPacket = IpV4Packet.newPacket(packet, 0, packet.size)
 
@@ -231,33 +241,38 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
             } else {
                 Log.i(TAG, "DNS Name $dnsQueryName Blocked!")
                 dnsMsg.header.setFlag(Flags.QR.toInt())
-                dnsMsg.addRecord(ARecord(dnsMsg.question.name,
+                dnsMsg.addRecord(
+                    ARecord(
+                        dnsMsg.question.name,
                         dnsMsg.question.dClass,
                         10.toLong(),
-                        Inet4Address.getLocalHost()), Section.ANSWER)
+                        Inet4Address.getLocalHost()
+                    ), Section.ANSWER
+                )
                 response = dnsMsg.toWire()
+                updateSharedPreference(parsedPacket.rawData.size)
             }
 
 
             val udpOutPacket = parsedPacket.payload as UdpPacket
             val ipOutPacket = IpV4Packet.Builder(parsedPacket)
-                    .srcAddr(parsedPacket.header.dstAddr)
-                    .dstAddr(parsedPacket.header.srcAddr)
-                    .correctChecksumAtBuild(true)
-                    .correctLengthAtBuild(true)
-                    .payloadBuilder(
-                            UdpPacket.Builder(udpOutPacket)
-                                    .srcPort(udpOutPacket.header.dstPort)
-                                    .dstPort(udpOutPacket.header.srcPort)
-                                    .srcAddr(parsedPacket.header.dstAddr)
-                                    .dstAddr(parsedPacket.header.srcAddr)
-                                    .correctChecksumAtBuild(true)
-                                    .correctLengthAtBuild(true)
-                                    .payloadBuilder(
-                                            UnknownPacket.Builder()
-                                                    .rawData(response)
-                                    )
-                    ).build()
+                .srcAddr(parsedPacket.header.dstAddr)
+                .dstAddr(parsedPacket.header.srcAddr)
+                .correctChecksumAtBuild(true)
+                .correctLengthAtBuild(true)
+                .payloadBuilder(
+                    UdpPacket.Builder(udpOutPacket)
+                        .srcPort(udpOutPacket.header.dstPort)
+                        .dstPort(udpOutPacket.header.srcPort)
+                        .srcAddr(parsedPacket.header.dstAddr)
+                        .dstAddr(parsedPacket.header.srcAddr)
+                        .correctChecksumAtBuild(true)
+                        .correctLengthAtBuild(true)
+                        .payloadBuilder(
+                            UnknownPacket.Builder()
+                                .rawData(response)
+                        )
+                ).build()
             try {
                 outFd.write(ipOutPacket.rawData)
             } catch (e: ErrnoException) {
@@ -281,6 +296,20 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
 
     }
 
+    private fun updateSharedPreference(adSizeInByte: Int) {
+        if (sharedPreManager == null) {
+            sharedPreManager = SharedPreManager(vpnService);
+        }
+
+        val prevNum = sharedPreManager?.getInt("ad_blocked", 0);
+        sharedPreManager?.putInt("ad_blocked", prevNum!! + 1)
+        LocalBroadcastManager.getInstance(vpnService).sendBroadcast(Intent("ad_blocked_updated"))
+
+        val prevSize = sharedPreManager?.getInt("ad_blocked_size", 0);
+        sharedPreManager?.putInt("ad_blocked_size", prevSize!! + adSizeInByte)
+        LocalBroadcastManager.getInstance(vpnService).sendBroadcast(Intent("ad_blocked_updated"))
+    }
+
     private fun loadBlockedHosts() {
         // Don't load the hosts more than once (temporary til we have dynamic lists)
         if (blockedHosts != null) {
@@ -289,7 +318,7 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
         }
 
         Log.i(TAG, "Loading block list")
-        val _blockedHosts : MutableSet<String> = mutableSetOf()
+        val _blockedHosts: MutableSet<String> = mutableSetOf()
 
         for (fileName in listOf("adaway_hosts.txt", "ad_servers.txt")) {
             val reader = vpnService.assets.open(fileName)
@@ -335,11 +364,13 @@ class AdVpnThread(vpnService: VpnService, notify: ((Int) -> Unit)?): Runnable {
 
         // Create a new interface using the builder and save the parameters.
         val pfd = builder
-                .setSession("Ad Buster")
-                .setConfigureIntent(
-                        PendingIntent.getActivity(vpnService, 1, Intent(vpnService, MainActivity::class.java),
-                                PendingIntent.FLAG_CANCEL_CURRENT)
-                ).establish()
+            .setSession("Ad Buster")
+            .setConfigureIntent(
+                PendingIntent.getActivity(
+                    vpnService, 1, Intent(vpnService, MainActivity::class.java),
+                    PendingIntent.FLAG_CANCEL_CURRENT
+                )
+            ).establish()
         Log.i(TAG, "Configured")
         return pfd
     }
