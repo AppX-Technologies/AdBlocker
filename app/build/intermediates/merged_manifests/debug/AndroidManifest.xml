@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
-        android:name="app.adbuster.AdBlockerApplication"
+        android:name="app.adbuster.java.AdBlockerApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -25,7 +25,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="app.adbuster.MainActivity"
+            android:name="app.adbuster.kotlin.MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -34,9 +34,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="app.adbuster.java.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.adbuster.java.HelpActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
 
         <service
-            android:name="app.adbuster.AdVpnService"
+            android:name="app.adbuster.kotlin.AdVpnService"
             android:permission="android.permission.BIND_VPN_SERVICE" >
             <intent-filter>
                 <action android:name="android.net.VpnService" />
@@ -44,7 +52,7 @@
         </service>
 
         <receiver
-            android:name="app.adbuster.BootComplete"
+            android:name="app.adbuster.kotlin.BootComplete"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>

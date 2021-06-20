@@ -12,12 +12,20 @@
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_help.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_help.xml"
+    },
+    {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_bg_lite_border.xml.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/bg_lite_border.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_star.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_star.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_power_middle.xml.flat",
@@ -36,8 +44,20 @@
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/power_toggle.xml"
     },
     {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_menu.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_share.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_share.xml"
+    },
+    {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_feedback.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_feedback.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -48,12 +68,20 @@
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_power_off.xml"
     },
     {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_activity_settings.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-hdpi-v11_ic_vpn_notification.png.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-hdpi-v11/ic_vpn_notification.png"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-mdpi-v11_ic_vpn_notification.png.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable-mdpi-v11/ic_vpn_notification.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_back.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_back.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v11_ic_vpn_notification.png.flat",
@@ -64,12 +92,24 @@
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_dialog_ads_help.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/dialog_ads_help.xml"
+    },
+    {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_main_menu_header.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/main_menu_header.xml"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/menu_activity_main_drawer.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/menu/activity_main_drawer.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/drawable_power_toggle_bg.xml.flat",
@@ -94,6 +134,10 @@
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/layout_activity_help.xml.flat",
+        "source": "/Users/rahulsoni/Work/AppX/Adblocker/app/src/main/res/layout/activity_help.xml"
     },
     {
         "merged": "/Users/rahulsoni/Work/AppX/Adblocker/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",

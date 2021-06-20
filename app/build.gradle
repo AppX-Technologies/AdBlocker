@@ -37,6 +37,10 @@ android {
         sourceCompatibility 1.8
         targetCompatibility 1.8
     }
+
+    buildFeatures {
+        viewBinding true
+    }
 }
 buildscript {
     ext.kotlin_version = '1.5.10'

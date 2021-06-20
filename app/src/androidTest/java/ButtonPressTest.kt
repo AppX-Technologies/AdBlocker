@@ -1,22 +1,16 @@
 import android.content.Intent
-import android.net.LocalSocketAddress
 import android.os.SystemClock
 import androidx.test.platform.app.InstrumentationRegistry
-import androidx.test.rule.ActivityTestRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import android.test.suitebuilder.annotation.SmallTest
-import app.adbuster.MainActivity
-import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.espresso.action.ViewActions.*
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.UiSelector
 import androidx.test.uiautomator.Until
-import app.adbuster.R
 import org.junit.Assert
 
 @RunWith(AndroidJUnit4::class)

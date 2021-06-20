@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fb8c00</color>
+    <color name="colorPrimaryLite">#ffbd45</color>
+    <color name="colorPrimaryDark">#c25e00</color>
+    <color name="colorAccent">#212121</color>
+    <color name="colorAccentFlat">#673901</color>
+    <color name="colorAccentTrans">#1A212121</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorPrimaryFlat">#1AFF8E00</color>
+    <color name="colorLightGrey">#B2C5BDBD</color>
+    <color name="colorLight">#DDDBDB</color>
+    <color name="colorGrey">#818181</color>
+    <color name="colorDarkGrey">#737373</color>
+    <color name="colorWhiteTrans">#80FFFFFF</color>
+    <color name="colorWhiteTrans2">#BFFFFFFF</color>
+    <color name="colorMaleBlue">#1884CA</color>
+    <color name="colorMaleBlueTrans">#1A1884CA</color>
+    <color name="colorFemalePink">#E408E1</color>
+    <color name="colorFemalePinkTrans">#1AE408E1</color>
+    <color name="colorSuccessLight">#00D809</color>
+    <color name="colorSuccessDark">#00A006</color>
+    <color name="colorError">#FF1A1A</color>
+    <color name="colorErrorDark">#B90000</color>
+
+</resources>

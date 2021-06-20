@@ -3,6 +3,8 @@ package app.adbuster
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
+import app.adbuster.kotlin.VpnNetworkException
+import app.adbuster.kotlin.getDnsServers
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test

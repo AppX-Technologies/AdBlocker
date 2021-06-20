@@ -1,6 +1,22 @@
+app/adbuster/databinding/ActivityMainBinding.java
+ app.adbuster.databinding.ActivityMainBinding
+app/adbuster/java/SharedPreManager.java
+ app.adbuster.java.SharedPreManager
+app/adbuster/databinding/MainMenuHeaderBinding.java
+ app.adbuster.databinding.MainMenuHeaderBinding
 app/adbuster/BuildConfig.java
  app.adbuster.BuildConfig
-app/adbuster/AdBlockerApplication.java
- app.adbuster.AdBlockerApplication
-app/adbuster/SharedPreManager.java
- app.adbuster.SharedPreManager
+app/adbuster/databinding/ActivityHelpBinding.java
+ app.adbuster.databinding.ActivityHelpBinding
+app/adbuster/java/AdBlockerApplication.java
+ app.adbuster.java.AdBlockerApplication
+app/adbuster/databinding/DialogAdsHelpBinding.java
+ app.adbuster.databinding.DialogAdsHelpBinding
+app/adbuster/java/SettingsActivity.java
+ app.adbuster.java.SettingsActivity
+app/adbuster/java/HelpActivity.java
+ app.adbuster.java.HelpActivity
+app/adbuster/databinding/ActivitySettingsBinding.java
+ app.adbuster.databinding.ActivitySettingsBinding
+app/adbuster/java/UIHelper.java
+ app.adbuster.java.UIHelper

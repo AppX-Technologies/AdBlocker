@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/rahulsoni/.gradle/caches/transforms-3/b82ab8d99ebe7f832aeb284974ea8b61/transformed/jetified-viewbinding-4.2.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/636abd2505ccfeb0dfa537ce973d5a81/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
@@ -46,20 +47,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/a870c0c7e34d8c04b04f9da6ce4a65c8/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/80f8347a727d01a41cdb802e684c7afb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/rahulsoni/.gradle/caches/transforms-3/224cae329b893a0a4e8ce569268d61da/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:3:5-27
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-50:12
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:1-59:12
 		INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:2:11-69
@@ -80,7 +81,7 @@ ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 	android:name
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:8:22-74
 application
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:10:5-48:19
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:10:5-57:19
 MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -94,65 +95,83 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rahu
 	android:supportsRtl
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:11:9-36
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:14:9-36
 	android:roundIcon
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:14:9-43
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:13:9-36
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:12:9-36
 	android:theme
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:17:9-40
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:12:9-45
-activity#app.adbuster.MainActivity
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:9-29:20
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:11:9-50
+activity#app.adbuster.kotlin.MainActivity
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:19:9-28:20
 	android:screenOrientation
 		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:22:13-49
 	android:configChanges
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:23:13-63
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:13-63
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:20:13-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:27:27-74
-service#app.adbuster.AdVpnService
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:31:9-37:19
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:26:27-74
+activity#app.adbuster.java.SettingsActivity
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:30:9-33:52
+	android:screenOrientation
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:31:13-50
+activity#app.adbuster.java.HelpActivity
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:9-38:52
+	android:screenOrientation
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:38:13-49
+	android:configChanges
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:37:13-63
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:36:13-46
+service#app.adbuster.kotlin.AdVpnService
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:40:9-46:19
 	android:permission
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:33:13-69
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:42:13-69
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:32:13-41
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:41:13-48
 intent-filter#action:name:android.net.VpnService
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:34:13-36:29
-action#android.net.VpnService
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:17-65
-	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:35:25-62
-receiver#app.adbuster.BootComplete
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:39:9-46:20
-	android:enabled
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:41:13-35
-	android:exported
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:42:13-36
-	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:40:13-41
-intent-filter#action:name:android.intent.action.BOOT_COMPLETED
 ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:43:13-45:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:17-79
+action#android.net.VpnService
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:17-65
 	android:name
-		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:25-76
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:44:25-62
+receiver#app.adbuster.kotlin.BootComplete
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:48:9-55:20
+	android:enabled
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:49:13-48
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:52:13-54:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:53:17-79
+	android:name
+		ADDED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml:53:25-76
 uses-sdk
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
 INJECTED from /Users/rahulsoni/Work/AppX/Adblocker/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/rahulsoni/.gradle/caches/transforms-3/b82ab8d99ebe7f832aeb284974ea8b61/transformed/jetified-viewbinding-4.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] /Users/rahulsoni/.gradle/caches/transforms-3/b82ab8d99ebe7f832aeb284974ea8b61/transformed/jetified-viewbinding-4.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] /Users/rahulsoni/.gradle/caches/transforms-3/584d0f1337977334f9aab9d6a10a9cec/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/rahulsoni/.gradle/caches/transforms-3/7c8b125a96eb1dbd89574197610c6c20/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41

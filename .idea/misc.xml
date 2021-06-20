@@ -5,8 +5,13 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_lite_border.xml" value="0.19375" />
         <entry key="app/src/main/res/drawable/power_toggle_bg.xml" value="0.19375" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_help.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/dialog_ads_help.xml" value="0.125" />
         <entry key="app/src/main/res/layout/form.xml" value="0.18020833333333333" />
+        <entry key="app/src/main/res/layout/main_menu_header.xml" value="0.125" />
+        <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.17916666666666667" />
       </map>
     </option>
   </component>

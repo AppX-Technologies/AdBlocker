@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+    </style>
+
+    <style name="MainAppBarTitleText" parent="TitleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="AppBarTitleText" parent="TitleText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TransparentBox">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="LogoText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="TitleText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">6dp</item>
+         
+    </style>
+
+    <style name="SubTitleText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">6dp</item>
+         
+    </style>
+
+    <style name="MediumText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">6dp</item>
+         
+    </style>
+
+    <style name="SmallText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">6dp</item>
+         
+    </style>
+
+    <style name="SmallTextNoPadding" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">14sp</item>
+         
+    </style>
+
+    <style name="TinyText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">12sp</item>
+         
+    </style>
+
+    <style name="TinyText2" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">10sp</item>
+         
+    </style>
+
+    <style name="TransparentEditText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@android:color/transparent</item>
+         
+    </style>
+
+</resources>

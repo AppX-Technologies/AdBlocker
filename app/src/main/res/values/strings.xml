@@ -20,8 +20,28 @@
     <string name="status_label">Status:</string>
     <string name="status_description">Vpn Status</string>
 
-    <string name="preferences_file_key">general_preferences</string>
+    <string name="preferences_file_key">AdBlockPref</string>
     <string name="vpn_enabled_key">vpn_enabled</string>
     <string name="vpn_toggle_description">Toggle VPN</string>
+    <string name="open_menu">Open menu</string>
+    <string name="ads_blocked_n_0">Ads blocked\n 0</string>
+    <string name="data_saved_n_0_mb">Data saved\n 0 mb</string>
+    <string name="rate_us">Rate us</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="give_us_feedback">Give us feedback</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="developer_name">Developed by abc</string>
+    <string name="v1">1.0.0</string>
+    <string name="report_an_issue">Report an issue</string>
+    <string name="send_us_a_complain">Send us a complain</string>
+    <string name="auto_start_on_boot">Auto start on boot</string>
+    <string name="start_ad_blocker_automatically_after_device_bootup">Start Ad Blocker automatically after device bootup</string>
+    <string name="feedback">Feedback</string>
+    <string name="give_us_your_feedback">Give us your feedback</string>
+    <string name="i_can_still_see_ads">I can still see ads</string>
+    <string name="why_can_i_still_see_ads">Why can I still see ads?</string>
+    <string name="why_can_i_still_see_ads_1">Some applications may temporarily cache some ads, and need to wait for the cached ads to expire. This process takes about an hour. You can also try to kill the advertised app.</string>
+    <string name="why_can_i_still_see_ads_2">The advertisements and web content of some applications are the same network api, and this part of the advertisement cannot be blocked.</string>
 
 </resources>
