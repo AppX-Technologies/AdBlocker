@@ -1178,7 +1178,7 @@
     <string name="vpn_enabled_key">vpn_enabled</string>
     <string name="vpn_toggle_description">Toggle VPN</string>
     <string name="why_can_i_still_see_ads">Why can I still see ads?</string>
-    <string name="why_can_i_still_see_ads_1">Some applications may temporarily cache some ads, and need to wait for the cached ads to expire. This process takes about an hour. You can also try to kill the advertised app. Please make sure AdBlock Plus is turned on, otherwise it may be Will affect ad blocking.</string>
+    <string name="why_can_i_still_see_ads_1">Some applications may temporarily cache some ads, and need to wait for the cached ads to expire. This process takes about an hour. You can also try to kill the advertised app.</string>
     <string name="why_can_i_still_see_ads_2">The advertisements and web content of some applications are the same network api, and this part of the advertisement cannot be blocked.</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

@@ -14,6 +14,7 @@ import app.adbuster.R
 import app.adbuster.java.HelpActivity
 import app.adbuster.java.SettingsActivity
 import app.adbuster.java.SharedPreManager
+import app.adbuster.java.UIHelper
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -64,6 +65,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initUI() {
+        UIHelper.allApps(this);
         iv_drawer.setOnClickListener {
             if (drawer.isDrawerOpen(nav_menu)) {
                 drawer.closeDrawers()

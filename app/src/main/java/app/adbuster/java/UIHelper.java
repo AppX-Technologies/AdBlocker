@@ -2,7 +2,6 @@ package app.adbuster.java;
 
 import android.content.Context;
 import android.view.View;
-import android.view.Window;
 
 import androidx.appcompat.app.AlertDialog;
 
